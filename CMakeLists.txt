@@ -11,10 +11,7 @@ include_directories(
   ${PROJECT_SOURCE_DIR}/src/tree
   ${PROJECT_SOURCE_DIR}/src/tree/pattern
   ${PROJECT_SOURCE_DIR}/src/tree/xpath
-  ${UTFCPP_DIR}/install/include/utf8cpp
-  ${UTFCPP_DIR}/install/include/utf8cpp/utf8
 )
-
 
 file(GLOB libantlrcpp_SRC
   "${PROJECT_SOURCE_DIR}/src/*.cpp"
